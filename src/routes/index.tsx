@@ -1,7 +1,7 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Tabs, Carousel, Accordion, Tooltip, Progress } from "@qwik-ui/headless";
+import { Tabs, Carousel, Accordion, Tooltip } from "@qwik-ui/headless";
 import { SHOP, hoursLabel } from "../shop";
 import {
   IconPhone, IconMapPin, IconClock, IconShield, IconTag, IconBolt, IconHandshake, IconChevron,
@@ -250,15 +250,6 @@ export default component$(() => {
               </div>
               <div class="visit__line"><IconPhone /><a href={SHOP.phoneHref}>{SHOP.phone}</a></div>
               <div class="visit__line"><IconClock /><span>Walk-ins welcome during open hours. Appointments jump the queue.</span></div>
-              <div class="capacity">
-                <div class="capacity__row">
-                  <span class="capacity__label">Today's bays</span>
-                  <span class="capacity__val">3 of 5 open</span>
-                </div>
-                <Progress.Root value={40} class="progress">
-                  <Progress.Indicator class="progress-indicator" />
-                </Progress.Root>
-              </div>
               <Link href="/book" class="btn btn--red btn--lg" style="margin-top:26px">Book an appointment</Link>
             </div>
             <div class="book-aside__hours">
