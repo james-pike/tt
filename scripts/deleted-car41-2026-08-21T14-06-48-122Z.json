@@ -1,0 +1,21 @@
+[
+  {
+    "id": 124,
+    "sku": "CAR-41",
+    "name": "Gildan Ultra Cotton® T-Shirt - Grey",
+    "category": "T-Shirts",
+    "sizes": "S - 5XL",
+    "badge": "New",
+    "colors": "[]",
+    "price": 15,
+    "img": "/g2000.jpg",
+    "imgs": "[\"/g2000.jpg\"]",
+    "material": "90% US cotton / 10% polyester, 6.0 oz/yd²",
+    "details": "Unisex, Classic fit, Seamless body with classic-width rib collar, Taped neck and shoulders for comfort and durability, #2000",
+    "pdf": null,
+    "sort_order": 23,
+    "created_at": "2026-07-01 00:50:54",
+    "updated_at": "2026-07-01 01:18:36",
+    "vendor": "carmichael"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Top Tier Motorworks",
+  "short_name": "Top Tier",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "description": "Auto repair, maintenance and performance tuning. Book online in two minutes.",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "480x261",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
